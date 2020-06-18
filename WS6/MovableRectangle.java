@@ -61,7 +61,6 @@ public class MovableRectangle implements Movable {
 
     @Override    
     public String toString() {
-        return String.format("MovableRectangle with topLeft: %1$s and bottomRight: %2$s"
-                            , topLeft.toString(), bottomRight.toString());
+        return "Movable Rectangle["+topLeft.toString()+','+bottomRight.toString()+']';
     }
 }
